@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QUITANDAModelStoreContainer" CdmEntityContainer="QUITANDAEntities">
+    <EntitySetMapping Name="CATEGORIAs">
+      <EntityTypeMapping TypeName="QUITANDAModel.CATEGORIA">
+        <MappingFragment StoreEntitySet="CATEGORIA">
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTEs">
+      <EntityTypeMapping TypeName="QUITANDAModel.CLIENTE">
+        <MappingFragment StoreEntitySet="CLIENTE">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nome_cliente" ColumnName="nome_cliente" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="rg" ColumnName="rg" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="logradouro" ColumnName="logradouro" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="bairro" ColumnName="bairro" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_PRODUTO">
+      <EntityTypeMapping TypeName="QUITANDAModel.ITEM_PRODUTO">
+        <MappingFragment StoreEntitySet="ITEM_PRODUTO">
+          <ScalarProperty Name="idProduto" ColumnName="idProduto" />
+          <ScalarProperty Name="idPedido" ColumnName="idPedido" />
+          <ScalarProperty Name="quantidade" ColumnName="quantidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PEDIDOes">
+      <EntityTypeMapping TypeName="QUITANDAModel.PEDIDO">
+        <MappingFragment StoreEntitySet="PEDIDO">
+          <ScalarProperty Name="idPedido" ColumnName="idPedido" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="DataPedido" ColumnName="DataPedido" />
+          <ScalarProperty Name="ValorTotal" ColumnName="ValorTotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTOS">
+      <EntityTypeMapping TypeName="QUITANDAModel.PRODUTO">
+        <MappingFragment StoreEntitySet="PRODUTOS">
+          <ScalarProperty Name="idProduto" ColumnName="idProduto" />
+          <ScalarProperty Name="nome_produto" ColumnName="nome_produto" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="medida" ColumnName="medida" />
+          <ScalarProperty Name="preco" ColumnName="preco" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

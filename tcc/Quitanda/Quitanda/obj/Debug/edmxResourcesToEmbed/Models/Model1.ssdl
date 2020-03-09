@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SaboresFitness2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CPF" />
+    </Key>
+    <Property Name="CPF" Type="char" MaxLength="12" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Logradouro" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Numero" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Complemento" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Bairro" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Cidade" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CEP" Type="char" MaxLength="9" />
+    <Property Name="Telefone" Type="char" MaxLength="13" Nullable="false" />
+    <Property Name="Email_login" Type="varchar" MaxLength="100" />
+    <Property Name="Senha_login" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Pedido">
+    <Key>
+      <PropertyRef Name="Id_Pedido" />
+    </Key>
+    <Property Name="Id_Pedido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CPF" Type="char" MaxLength="12" />
+    <Property Name="Data_Compra" Type="date" />
+    <Property Name="Qtde_Itens" Type="int" />
+    <Property Name="Valor_Total" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Data_Entrega" Type="date" />
+    <Property Name="Horario_Entrega" Type="time" Precision="7" />
+    <Property Name="Taxa_Entrega" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Status_Entrega" Type="char" MaxLength="10" />
+    <Property Name="Data_Pagamento" Type="date" />
+    <Property Name="Forma_Pagamento" Type="varchar" MaxLength="10" />
+    <Property Name="Status_Pagamento" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Pedido_Produto">
+    <Key>
+      <PropertyRef Name="Id_Pedido_Prod" />
+    </Key>
+    <Property Name="Id_Pedido_Prod" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Produto" Type="int" />
+    <Property Name="Id_Pedido" Type="int" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Id_Produto" />
+    </Key>
+    <Property Name="Id_Produto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome_Produto" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Valor_Produto" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Tamanho_Marmita" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Descrição_Produto" Type="varchar" MaxLength="250" />
+    <Property Name="Categoria" Type="varchar" MaxLength="10" />
+    <Property Name="Status_Produto" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id_Funcionario" />
+    </Key>
+    <Property Name="Id_Funcionario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="250" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Login" Type="varchar" MaxLength="50" />
+    <Property Name="Senha" Type="varchar" MaxLength="20" />
+    <Property Name="Cargo" Type="varchar" MaxLength="20" />
+    <Property Name="Status" Type="char" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_Cliente_CPF">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="CPF" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedido">
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="0..1" />
+    <End Role="Pedido_Produto" Type="Self.Pedido_Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedido">
+        <PropertyRef Name="Id_Pedido" />
+      </Principal>
+      <Dependent Role="Pedido_Produto">
+        <PropertyRef Name="Id_Pedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produto">
+    <End Role="Produto" Type="Self.Produto" Multiplicity="0..1" />
+    <End Role="Pedido_Produto" Type="Self.Pedido_Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="Id_Produto" />
+      </Principal>
+      <Dependent Role="Pedido_Produto">
+        <PropertyRef Name="Id_Produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SaboresFitness2StoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pedido" EntityType="Self.Pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pedido_Produto" EntityType="Self.Pedido_Produto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Cliente_CPF" Association="Self.FK_Cliente_CPF">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Pedido" EntitySet="Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedido" Association="Self.FK_Pedido">
+      <End Role="Pedido" EntitySet="Pedido" />
+      <End Role="Pedido_Produto" EntitySet="Pedido_Produto" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produto" Association="Self.FK_Produto">
+      <End Role="Produto" EntitySet="Produto" />
+      <End Role="Pedido_Produto" EntitySet="Pedido_Produto" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

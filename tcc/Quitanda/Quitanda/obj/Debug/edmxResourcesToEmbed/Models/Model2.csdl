@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SABORESFITModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="Nome" />
+    </Key>
+    <Property Name="CPF" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Logradouro" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Numero" Type="Int32" />
+    <Property Name="Bairro" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Cidade" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CEP" Type="Int32" />
+    <Property Name="Telefone" Type="Int32" />
+    <Property Name="Email_login" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Senha_login" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Id_Produto" />
+    </Key>
+    <Property Name="Id_Produto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome_Produto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Tipo_Produto" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Valor_Produto" Type="Int32" />
+    <Property Name="Tamanho_Marmita" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Descrição_Produto" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SABORESFITEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="Produtoes" EntityType="Self.Produto" />
+  </EntityContainer>
+</Schema>

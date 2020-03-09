@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SaboresFitnessModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="Nome" />
+    </Key>
+    <Property Name="CPF" Type="char" MaxLength="12" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Logradouro" Type="varchar" MaxLength="40" />
+    <Property Name="Numero" Type="varchar" MaxLength="10" />
+    <Property Name="Complemento" Type="varchar" MaxLength="100" />
+    <Property Name="Bairro" Type="varchar" MaxLength="100" />
+    <Property Name="Cidade" Type="varchar" MaxLength="20" />
+    <Property Name="CEP" Type="char" MaxLength="9" />
+    <Property Name="Telefone" Type="char" MaxLength="13" />
+    <Property Name="Email_login" Type="varchar" MaxLength="100" />
+    <Property Name="Senha_login" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Produtos">
+    <Key>
+      <PropertyRef Name="Id_Produto" />
+    </Key>
+    <Property Name="Id_Produto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome_Produto" Type="varchar" MaxLength="20" />
+    <Property Name="Valor_Produto" Type="int" />
+    <Property Name="Tamanho_Marmita" Type="varchar" MaxLength="10" />
+    <Property Name="Descrição_Produto" Type="varchar" MaxLength="40" />
+    <Property Name="Categoria" Type="varchar" MaxLength="10" />
+    <Property Name="Status_Produto" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="SaboresFitnessModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produtos" EntityType="Self.Produtos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

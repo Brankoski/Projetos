@@ -1,0 +1,551 @@
+z:\lip2\Quitanda\Quitanda\bin\Quitanda.dll.config
+z:\lip2\Quitanda\Quitanda\bin\Quitanda.dll
+z:\lip2\Quitanda\Quitanda\bin\Quitanda.pdb
+z:\lip2\Quitanda\Quitanda\bin\roslyn\csc.exe
+z:\lip2\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+z:\lip2\Quitanda\Quitanda\bin\roslyn\csc.rsp
+z:\lip2\Quitanda\Quitanda\bin\roslyn\csi.exe
+z:\lip2\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+z:\lip2\Quitanda\Quitanda\bin\roslyn\csi.rsp
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+z:\lip2\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+z:\lip2\Quitanda\Quitanda\bin\roslyn\vbc.exe
+z:\lip2\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+z:\lip2\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+z:\lip2\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+z:\lip2\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+z:\lip2\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+z:\lip2\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Razor.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Razor.xml
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+z:\lip2\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+z:\lip2\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+z:\lip2\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+z:\lip2\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+z:\lip2\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+z:\lip2\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+z:\lip2\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+z:\lip2\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+z:\lip2\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache
+z:\lip2\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CoreCompileInputs.cache
+z:\lip2\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+z:\lip2\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+z:\lip2\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+Z:\lip2\Quitanda\Quitanda\bin\EntityFramework.dll
+Z:\lip2\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+Z:\lip2\Quitanda\Quitanda\bin\EntityFramework.xml
+Z:\lip2\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+D:\Quitanda\Quitanda\bin\Quitanda.dll.config
+D:\Quitanda\Quitanda\bin\Quitanda.dll
+D:\Quitanda\Quitanda\bin\Quitanda.pdb
+D:\Quitanda\Quitanda\bin\roslyn\csc.exe
+D:\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+D:\Quitanda\Quitanda\bin\roslyn\csc.rsp
+D:\Quitanda\Quitanda\bin\roslyn\csi.exe
+D:\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+D:\Quitanda\Quitanda\bin\roslyn\csi.rsp
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+D:\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Quitanda\Quitanda\bin\roslyn\vbc.exe
+D:\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+D:\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+D:\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+D:\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+D:\Quitanda\Quitanda\bin\EntityFramework.dll
+D:\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+D:\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+D:\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+D:\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+D:\Quitanda\Quitanda\bin\System.Web.Razor.dll
+D:\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+D:\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+D:\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+D:\Quitanda\Quitanda\bin\EntityFramework.xml
+D:\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+D:\Quitanda\Quitanda\bin\System.Web.Razor.xml
+D:\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+D:\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+D:\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+D:\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+D:\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+D:\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+D:\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+D:\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache
+D:\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CoreCompileInputs.cache
+D:\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+D:\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+D:\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\Quitanda.dll.config
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\Quitanda.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\Quitanda.pdb
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\csc.exe
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\csc.rsp
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\csi.exe
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\csi.rsp
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\vbc.exe
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\EntityFramework.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Razor.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\EntityFramework.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Razor.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CoreCompileInputs.cache
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+C:\Users\Luan Christian\Desktop\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+Z:\Quitanda\Quitanda\bin\Quitanda.dll.config
+Z:\Quitanda\Quitanda\bin\Quitanda.dll
+Z:\Quitanda\Quitanda\bin\Quitanda.pdb
+Z:\Quitanda\Quitanda\bin\roslyn\csc.exe
+Z:\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+Z:\Quitanda\Quitanda\bin\roslyn\csc.rsp
+Z:\Quitanda\Quitanda\bin\roslyn\csi.exe
+Z:\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+Z:\Quitanda\Quitanda\bin\roslyn\csi.rsp
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+Z:\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Z:\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+Z:\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+Z:\Quitanda\Quitanda\bin\roslyn\vbc.exe
+Z:\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+Z:\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+Z:\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+Z:\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+Z:\Quitanda\Quitanda\bin\EntityFramework.dll
+Z:\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+Z:\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+Z:\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+Z:\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+Z:\Quitanda\Quitanda\bin\System.Web.Razor.dll
+Z:\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+Z:\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+Z:\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+Z:\Quitanda\Quitanda\bin\EntityFramework.xml
+Z:\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+Z:\Quitanda\Quitanda\bin\System.Web.Razor.xml
+Z:\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+Z:\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+Z:\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+Z:\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+Z:\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+Z:\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+Z:\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+Z:\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+Z:\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+Z:\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+Z:\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+Z:\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache
+Z:\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CoreCompileInputs.cache
+Z:\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+Z:\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+Z:\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\Quitanda.dll.config
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\Quitanda.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\Quitanda.pdb
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\csc.exe
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\csc.rsp
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\csi.exe
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\csi.rsp
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\vbc.exe
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\EntityFramework.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Razor.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\EntityFramework.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Razor.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+Z:\tcc\Quitanda\Quitanda\bin\Quitanda.dll.config
+Z:\tcc\Quitanda\Quitanda\bin\Quitanda.dll
+Z:\tcc\Quitanda\Quitanda\bin\Quitanda.pdb
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\csc.exe
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\csc.rsp
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\csi.exe
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\csi.rsp
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\vbc.exe
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+Z:\tcc\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+Z:\tcc\Quitanda\Quitanda\bin\EntityFramework.dll
+Z:\tcc\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+Z:\tcc\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Z:\tcc\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Razor.dll
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+Z:\tcc\Quitanda\Quitanda\bin\EntityFramework.xml
+Z:\tcc\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Razor.xml
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+Z:\tcc\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+Z:\tcc\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Z:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+Z:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+Z:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+Z:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+Z:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+Z:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+Z:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CoreCompileInputs.cache
+Z:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+Z:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+Z:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+G:\tcc\Quitanda\Quitanda\bin\Quitanda.dll.config
+G:\tcc\Quitanda\Quitanda\bin\Quitanda.dll
+G:\tcc\Quitanda\Quitanda\bin\Quitanda.pdb
+G:\tcc\Quitanda\Quitanda\bin\roslyn\csc.exe
+G:\tcc\Quitanda\Quitanda\bin\roslyn\csc.exe.config
+G:\tcc\Quitanda\Quitanda\bin\roslyn\csc.rsp
+G:\tcc\Quitanda\Quitanda\bin\roslyn\csi.exe
+G:\tcc\Quitanda\Quitanda\bin\roslyn\csi.exe.config
+G:\tcc\Quitanda\Quitanda\bin\roslyn\csi.rsp
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.Managed.Core.targets
+G:\tcc\Quitanda\Quitanda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.AppContext.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Collections.Immutable.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Console.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Compression.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.IO.Pipes.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Reflection.Metadata.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.AccessControl.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Claims.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Security.Principal.Windows.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.ValueTuple.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XmlDocument.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\tcc\Quitanda\Quitanda\bin\roslyn\vbc.exe
+G:\tcc\Quitanda\Quitanda\bin\roslyn\vbc.exe.config
+G:\tcc\Quitanda\Quitanda\bin\roslyn\vbc.rsp
+G:\tcc\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe
+G:\tcc\Quitanda\Quitanda\bin\roslyn\VBCSCompiler.exe.config
+G:\tcc\Quitanda\Quitanda\bin\EntityFramework.dll
+G:\tcc\Quitanda\Quitanda\bin\EntityFramework.SqlServer.dll
+G:\tcc\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\tcc\Quitanda\Quitanda\bin\Microsoft.Web.Infrastructure.dll
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Helpers.dll
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Mvc.dll
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Razor.dll
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.dll
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.dll
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.dll
+G:\tcc\Quitanda\Quitanda\bin\EntityFramework.xml
+G:\tcc\Quitanda\Quitanda\bin\EntityFramework.SqlServer.xml
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Razor.xml
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.xml
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Deployment.xml
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Webpages.Razor.xml
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Helpers.xml
+G:\tcc\Quitanda\Quitanda\bin\System.Web.Mvc.xml
+G:\tcc\Quitanda\Quitanda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Razor.resources.dll
+G:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.resources.dll
+G:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+G:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+G:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Helpers.resources.dll
+G:\tcc\Quitanda\Quitanda\bin\pt-br\System.Web.Mvc.resources.dll
+G:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache
+G:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csproj.CopyComplete
+G:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.dll
+G:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.pdb
+C:\Users\Luana\Desktop\ITB\2 Semestre\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache
+Z:\tcc\Quitanda\Quitanda\obj\Debug\Quitanda.csprojAssemblyReference.cache

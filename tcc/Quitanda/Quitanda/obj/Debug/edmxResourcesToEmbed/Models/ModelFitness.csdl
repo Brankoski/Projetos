@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SaboresFitnessModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="Nome" />
+    </Key>
+    <Property Name="CPF" Type="String" MaxLength="12" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Logradouro" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Numero" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Complemento" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Bairro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Cidade" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CEP" Type="String" MaxLength="9" FixedLength="true" Unicode="false" />
+    <Property Name="Telefone" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="Email_login" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Senha_login" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Produtos">
+    <Key>
+      <PropertyRef Name="Id_Produto" />
+    </Key>
+    <Property Name="Id_Produto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome_Produto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Valor_Produto" Type="Int32" />
+    <Property Name="Tamanho_Marmita" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Descrição_Produto" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Categoria" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Status_Produto" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SaboresFitnessEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" />
+    <EntitySet Name="Produtos" EntityType="Self.Produtos" />
+  </EntityContainer>
+</Schema>

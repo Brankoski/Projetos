@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SABORESFITModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="Nome" />
+    </Key>
+    <Property Name="CPF" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Logradouro" Type="varchar" MaxLength="40" />
+    <Property Name="Numero" Type="int" />
+    <Property Name="Bairro" Type="varchar" MaxLength="20" />
+    <Property Name="Cidade" Type="varchar" MaxLength="20" />
+    <Property Name="CEP" Type="int" />
+    <Property Name="Telefone" Type="int" />
+    <Property Name="Email_login" Type="varchar" MaxLength="20" />
+    <Property Name="Senha_login" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Id_Produto" />
+    </Key>
+    <Property Name="Id_Produto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome_Produto" Type="varchar" MaxLength="20" />
+    <Property Name="Tipo_Produto" Type="varchar" MaxLength="10" />
+    <Property Name="Valor_Produto" Type="int" />
+    <Property Name="Tamanho_Marmita" Type="varchar" MaxLength="10" />
+    <Property Name="Descrição_Produto" Type="varchar" MaxLength="40" />
+  </EntityType>
+  <EntityContainer Name="SABORESFITModel1StoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

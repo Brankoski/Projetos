@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SABORESFITModel1StoreContainer" CdmEntityContainer="SABORESFITEntities1">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="SABORESFITModel1.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Email_login" ColumnName="Email_login" />
+          <ScalarProperty Name="Senha_login" ColumnName="Senha_login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produtoes">
+      <EntityTypeMapping TypeName="SABORESFITModel1.Produto">
+        <MappingFragment StoreEntitySet="Produto">
+          <ScalarProperty Name="Id_Produto" ColumnName="Id_Produto" />
+          <ScalarProperty Name="Nome_Produto" ColumnName="Nome_Produto" />
+          <ScalarProperty Name="Tipo_Produto" ColumnName="Tipo_Produto" />
+          <ScalarProperty Name="Valor_Produto" ColumnName="Valor_Produto" />
+          <ScalarProperty Name="Tamanho_Marmita" ColumnName="Tamanho_Marmita" />
+          <ScalarProperty Name="Descrição_Produto" ColumnName="Descrição_Produto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

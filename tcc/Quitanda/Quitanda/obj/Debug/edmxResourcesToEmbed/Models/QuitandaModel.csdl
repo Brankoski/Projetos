@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUITANDAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CATEGORIA">
+    <Key>
+      <PropertyRef Name="idCategoria" />
+    </Key>
+    <Property Name="idCategoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descricao" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PRODUTOS" Relationship="Self.FK_PRODUTOS_CATEGORIA" FromRole="CATEGORIA" ToRole="PRODUTOS" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_cliente" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="cpf" Type="Decimal" Precision="13" Scale="0" />
+    <Property Name="rg" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="login" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="senha" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="350" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="telefone" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="celular" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="logradouro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="numero" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="bairro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="cidade" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="cep" Type="Int32" />
+    <NavigationProperty Name="PEDIDOes" Relationship="Self.FK_PEDIDO_CLIENTE" FromRole="CLIENTE" ToRole="PEDIDO" />
+  </EntityType>
+  <EntityType Name="ITEM_PRODUTO">
+    <Key>
+      <PropertyRef Name="idProduto" />
+      <PropertyRef Name="idPedido" />
+    </Key>
+    <Property Name="idProduto" Type="Int32" Nullable="false" />
+    <Property Name="idPedido" Type="Int32" Nullable="false" />
+    <Property Name="quantidade" Type="Int32" />
+    <NavigationProperty Name="PEDIDO" Relationship="Self.FK_ITEM_PEDIDO_PEDIDO" FromRole="ITEM_PRODUTO" ToRole="PEDIDO" />
+    <NavigationProperty Name="PRODUTO" Relationship="Self.FK_ITEM_PEDIDO_PRODUTOS" FromRole="ITEM_PRODUTO" ToRole="PRODUTOS" />
+  </EntityType>
+  <EntityType Name="PEDIDO">
+    <Key>
+      <PropertyRef Name="idPedido" />
+    </Key>
+    <Property Name="idPedido" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCliente" Type="Int32" />
+    <Property Name="DataPedido" Type="DateTime" Precision="0" />
+    <Property Name="ValorTotal" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="CLIENTE" Relationship="Self.FK_PEDIDO_CLIENTE" FromRole="PEDIDO" ToRole="CLIENTE" />
+    <NavigationProperty Name="ITEM_PRODUTO" Relationship="Self.FK_ITEM_PEDIDO_PEDIDO" FromRole="PEDIDO" ToRole="ITEM_PRODUTO" />
+  </EntityType>
+  <EntityType Name="PRODUTO">
+    <Key>
+      <PropertyRef Name="idProduto" />
+    </Key>
+    <Property Name="idProduto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_produto" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="idCategoria" Type="Int32" />
+    <Property Name="medida" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="preco" Type="Decimal" Precision="7" Scale="2" />
+    <Property Name="foto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CATEGORIA" Relationship="Self.FK_PRODUTOS_CATEGORIA" FromRole="PRODUTOS" ToRole="CATEGORIA" />
+    <NavigationProperty Name="ITEM_PRODUTO" Relationship="Self.FK_ITEM_PEDIDO_PRODUTOS" FromRole="PRODUTOS" ToRole="ITEM_PRODUTO" />
+  </EntityType>
+  <Association Name="FK_PRODUTOS_CATEGORIA">
+    <End Role="CATEGORIA" Type="Self.CATEGORIA" Multiplicity="0..1" />
+    <End Role="PRODUTOS" Type="Self.PRODUTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIA">
+        <PropertyRef Name="idCategoria" />
+      </Principal>
+      <Dependent Role="PRODUTOS">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PEDIDO_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="0..1" />
+    <End Role="PEDIDO" Type="Self.PEDIDO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="PEDIDO">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ITEM_PEDIDO_PEDIDO">
+    <End Role="PEDIDO" Type="Self.PEDIDO" Multiplicity="1" />
+    <End Role="ITEM_PRODUTO" Type="Self.ITEM_PRODUTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PEDIDO">
+        <PropertyRef Name="idPedido" />
+      </Principal>
+      <Dependent Role="ITEM_PRODUTO">
+        <PropertyRef Name="idPedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ITEM_PEDIDO_PRODUTOS">
+    <End Role="PRODUTOS" Type="Self.PRODUTO" Multiplicity="1" />
+    <End Role="ITEM_PRODUTO" Type="Self.ITEM_PRODUTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUTOS">
+        <PropertyRef Name="idProduto" />
+      </Principal>
+      <Dependent Role="ITEM_PRODUTO">
+        <PropertyRef Name="idProduto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QUITANDAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CATEGORIAs" EntityType="Self.CATEGORIA" />
+    <EntitySet Name="CLIENTEs" EntityType="Self.CLIENTE" />
+    <EntitySet Name="ITEM_PRODUTO" EntityType="Self.ITEM_PRODUTO" />
+    <EntitySet Name="PEDIDOes" EntityType="Self.PEDIDO" />
+    <EntitySet Name="PRODUTOS" EntityType="Self.PRODUTO" />
+    <AssociationSet Name="FK_PRODUTOS_CATEGORIA" Association="Self.FK_PRODUTOS_CATEGORIA">
+      <End Role="CATEGORIA" EntitySet="CATEGORIAs" />
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PEDIDO_CLIENTE" Association="Self.FK_PEDIDO_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+      <End Role="PEDIDO" EntitySet="PEDIDOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ITEM_PEDIDO_PEDIDO" Association="Self.FK_ITEM_PEDIDO_PEDIDO">
+      <End Role="PEDIDO" EntitySet="PEDIDOes" />
+      <End Role="ITEM_PRODUTO" EntitySet="ITEM_PRODUTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ITEM_PEDIDO_PRODUTOS" Association="Self.FK_ITEM_PEDIDO_PRODUTOS">
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+      <End Role="ITEM_PRODUTO" EntitySet="ITEM_PRODUTO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

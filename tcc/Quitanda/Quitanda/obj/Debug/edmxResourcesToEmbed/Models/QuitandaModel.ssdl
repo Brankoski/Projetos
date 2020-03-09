@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUITANDAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CATEGORIA">
+    <Key>
+      <PropertyRef Name="idCategoria" />
+    </Key>
+    <Property Name="idCategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descricao" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="idCliente" />
+    </Key>
+    <Property Name="idCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nome_cliente" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="cpf" Type="decimal" Precision="13" Scale="0" />
+    <Property Name="rg" Type="nvarchar" MaxLength="9" />
+    <Property Name="login" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="senha" Type="nvarchar" MaxLength="10" />
+    <Property Name="email" Type="nvarchar" MaxLength="350" Nullable="false" />
+    <Property Name="telefone" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="celular" Type="decimal" Precision="12" Scale="0" />
+    <Property Name="logradouro" Type="nvarchar(max)" />
+    <Property Name="numero" Type="nvarchar" MaxLength="10" />
+    <Property Name="bairro" Type="nvarchar(max)" />
+    <Property Name="cidade" Type="nvarchar(max)" />
+    <Property Name="estado" Type="nvarchar(max)" />
+    <Property Name="cep" Type="int" />
+  </EntityType>
+  <EntityType Name="ITEM_PRODUTO">
+    <Key>
+      <PropertyRef Name="idProduto" />
+      <PropertyRef Name="idPedido" />
+    </Key>
+    <Property Name="idProduto" Type="int" Nullable="false" />
+    <Property Name="idPedido" Type="int" Nullable="false" />
+    <Property Name="quantidade" Type="int" />
+  </EntityType>
+  <EntityType Name="PEDIDO">
+    <Key>
+      <PropertyRef Name="idPedido" />
+    </Key>
+    <Property Name="idPedido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCliente" Type="int" />
+    <Property Name="DataPedido" Type="date" />
+    <Property Name="ValorTotal" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="PRODUTOS">
+    <Key>
+      <PropertyRef Name="idProduto" />
+    </Key>
+    <Property Name="idProduto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nome_produto" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="descricao" Type="nvarchar(max)" />
+    <Property Name="idCategoria" Type="int" />
+    <Property Name="medida" Type="nvarchar" MaxLength="10" />
+    <Property Name="preco" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="foto" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_ITEM_PEDIDO_PEDIDO">
+    <End Role="PEDIDO" Type="Self.PEDIDO" Multiplicity="1" />
+    <End Role="ITEM_PRODUTO" Type="Self.ITEM_PRODUTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PEDIDO">
+        <PropertyRef Name="idPedido" />
+      </Principal>
+      <Dependent Role="ITEM_PRODUTO">
+        <PropertyRef Name="idPedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ITEM_PEDIDO_PRODUTOS">
+    <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="1" />
+    <End Role="ITEM_PRODUTO" Type="Self.ITEM_PRODUTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUTOS">
+        <PropertyRef Name="idProduto" />
+      </Principal>
+      <Dependent Role="ITEM_PRODUTO">
+        <PropertyRef Name="idProduto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PEDIDO_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="0..1" />
+    <End Role="PEDIDO" Type="Self.PEDIDO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="idCliente" />
+      </Principal>
+      <Dependent Role="PEDIDO">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUTOS_CATEGORIA">
+    <End Role="CATEGORIA" Type="Self.CATEGORIA" Multiplicity="0..1" />
+    <End Role="PRODUTOS" Type="Self.PRODUTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIA">
+        <PropertyRef Name="idCategoria" />
+      </Principal>
+      <Dependent Role="PRODUTOS">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QUITANDAModelStoreContainer">
+    <EntitySet Name="CATEGORIA" EntityType="Self.CATEGORIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ITEM_PRODUTO" EntityType="Self.ITEM_PRODUTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PEDIDO" EntityType="Self.PEDIDO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUTOS" EntityType="Self.PRODUTOS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ITEM_PEDIDO_PEDIDO" Association="Self.FK_ITEM_PEDIDO_PEDIDO">
+      <End Role="PEDIDO" EntitySet="PEDIDO" />
+      <End Role="ITEM_PRODUTO" EntitySet="ITEM_PRODUTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ITEM_PEDIDO_PRODUTOS" Association="Self.FK_ITEM_PEDIDO_PRODUTOS">
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+      <End Role="ITEM_PRODUTO" EntitySet="ITEM_PRODUTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PEDIDO_CLIENTE" Association="Self.FK_PEDIDO_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="PEDIDO" EntitySet="PEDIDO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUTOS_CATEGORIA" Association="Self.FK_PRODUTOS_CATEGORIA">
+      <End Role="CATEGORIA" EntitySet="CATEGORIA" />
+      <End Role="PRODUTOS" EntitySet="PRODUTOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
